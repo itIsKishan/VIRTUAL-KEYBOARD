@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>Virtual-Keyboard</title>
+</head>
+<body>
+    <div id = 'virtual-keyboard-layout'>
+
+        <h1>VIRTUAL KEYBOARD</h1>
+        <div id = 'displayCharacter'>
+            <input type = 'text' id = 'display' readonly/>
+        </div>
+
+        <div id = 'characters-layout'>
+
+            <div id = 'char-row1'>
+                <button onclick= "specialChar(event)" name = '~'>~</button>
+                <button  onclick="specialChar(event)" name = '!'>!</button>
+                <button  onclick="specialChar(event)" name = '@'>@</button>
+                <button  onclick="specialChar(event)" name = '#'>#</button>
+                <button  onclick="specialChar(event)" name = '$'>$</button>
+                <button  onclick="specialChar(event)" name = '%'>%</button>
+                <button  onclick="specialChar(event)" name = '^'>^</button>
+                <button  onclick="specialChar(event)" name = '&'>&</button>
+                <button  onclick="specialChar(event)" name = '*'>*</button>
+                <button  onclick="specialChar(event)" name = '('>(</button>
+                <button  onclick="specialChar(event)" name = ')'>)</button>
+                <button  onclick="specialChar(event)" name = '_'>_</button>
+                <button  onclick="specialChar(event)" name = '='>=</button>
+                <button id = 'charBacSpace' onclick="backspace()">BackSpace</button>
+            </div>
+
+            <div id = 'char-row2'>
+                <button id = 'charTab' onclick="tab()">Tab</button>
+                <button  onclick="displayChar2(event)" name = 'q'>q</button>
+                <button  onclick="displayChar2(event)" name = 'w'>w</button>
+                <button  onclick="displayChar2(event)" name = 'e'>e</button>
+                <button  onclick="displayChar2(event)" name = 'r'>r</button>
+                <button  onclick="displayChar2(event)" name = 't'>t</button>
+                <button  onclick="displayChar2(event)" name = 'y'>y</button>
+                <button  onclick="displayChar2(event)" name = 'u'>u</button>
+                <button  onclick="displayChar2(event)" name = 'i'>i</button>
+                <button  onclick="displayChar2(event)" name = 'o'>o</button>
+                <button  onclick="displayChar2(event)" name = 'p'>p</button>
+                <button  onclick="displayChar2(event)" name = '{'>{</button>
+                <button  onclick="displayChar2(event)" name = '}'>}</button>
+            </div>
+
+            <div id = 'char-row-3'>
+                <button id = 'charCaps' onclick="capsLock()">CapsLock</button>
+                <button  onclick="displayChar(event)" name = 'a'>a</button>
+                <button  onclick="displayChar(event)" name = 's' >s</button>
+                <button  onclick="displayChar(event)" name = 'd' >d</button>
+                <button  onclick="displayChar(event)" name = 'f' >f</button>
+                <button  onclick="displayChar(event)" name = 'g' >g</button>
+                <button  onclick="displayChar(event)" name = 'h' >h</button>
+                <button  onclick="displayChar(event)"name = 'j' >j</button>
+                <button  onclick="displayChar(event)" name = 'k' >k</button>
+                <button  onclick="displayChar(event)" name = 'l' >l</button>
+                <button  onclick="displayChar(event)" name = ':' >:</button>
+                <button  onclick="displayChar(event)" name = '"'>"</button>
+                <button  onclick="displayChar(event)" name = '|'>|</button>
+            </div>
+
+            <div id = 'char-row-4'>
+                <button onclick="shift()" id = 'charShift'>Shift</button>
+                <button onclick="displayChar3(event)" name ='z' >z</button>
+                <button onclick="displayChar3(event)" name ='x' >x</button>
+                <button onclick="displayChar3(event)" name ='c' >c</button>
+                <button onclick="displayChar3(event)" name ='v' >v</button>
+                <button onclick="displayChar3(event)" name ='b' >b</button>
+                <button  onclick="displayChar3(event)" name ='n'>n</button>
+                <button onclick="displayChar3(event)" name ='m'>m</button>
+                <button onclick="displayChar3(event)" name =',' >,</button>
+                <button onclick="displayChar3(event)" name ='.'>.</button>
+                <button onclick="displayChar3(event)" name ='?'>?</button>
+                <button onclick="shift()" id = 'charShift'>Shift</button>
+            </div>
+
+            <div id = 'char-row-5'>
+                <button id = 'charSpace' onclick="space()">Space</button>
+            </div>
+        </div>
+
+        <div id = 'number-layout'>
+
+            <div id = 'number-layout-0'>
+                <button  onclick="displayNum(event)" name = 'div'>/</button>
+                <button  onclick="displayNum(event)" name = 'multy'>*</button>
+                <button  onclick="displayNum(event)" name = 'sub'>-</button>
+            </div>
+
+            <div id = 'number-layout1'>
+                <button  onclick="displayNum(event)" name = 'sev'>7</button>
+                <button  onclick="displayNum(event)" name = 'eight'>8</button>
+                <button  onclick="displayNum(event)" name = 'nine'>9</button>
+            </div>
+            <div id = 'number-layout2'>
+                <button  onclick="displayNum(event)" name = 'four'>4</button>
+                <button  onclick="displayNum(event)" name = 'five'>5</button>
+                <button  onclick="displayNum(event)" name = 'six'>6</button>
+            </div>
+            <div id = 'number-layout3'>
+                <button onclick="displayNum(event)" name = 'one'>1</button>
+                <button  onclick="displayNum(event)" name = 'two'>2</button>
+                <button  onclick="displayNum(event)" name = 'three'>3</button>
+            </div>
+            <div id = 'number-layout-4'>
+                <button id = 'num0' onclick="displayNum(event)" name = 'zero'>0</button>
+                <button  onclick="displayNum(event)" name = 'plus'>+</button>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    margin: 25px 30px 80px 10px;
+    border-style: none;
+    padding: 25px;
+    text-size-adjust: 50px;
+    font-size: 50px;
+}
+
+#characters-layout{
+    float: left;
+    width: 79%;
+    height: 215px;
+    border: solid;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color: lightpink;
+}
+
+
+#number-layout{
+    float: right;
+    width: 18%;
+    height: 215px;
+    border: solid;
+    border-width: 1px;
+    border-color: lightpink;
+}
+
+button{
+    font-family: "Trirong", serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    width: 70px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-width: 1px 1px;
+    border-color: lightcoral;
+}
+
+#charBacSpace{
+    display: inline;
+    width: 10.3%;
+}
+
+
+#charCaps{
+    display: inline;
+    width: 17%;
+}
+
+#charShift{
+    display: inline;
+    width: 15%;
+}
+
+#charTab{
+    display: inline;
+    width: 17%;
+}
+
+#charSpace{
+    display: inline;
+    width: 60%;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+#num0{
+    display: inline;
+    width: 58%;
+}
+
