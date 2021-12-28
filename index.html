@@ -37,48 +37,48 @@
 
             <div id = 'char-row2'>
                 <button id = 'charTab' onclick="tab()">Tab</button>
-                <button  onclick="displayChar2(event)" name = 'q'>q</button>
-                <button  onclick="displayChar2(event)" name = 'w'>w</button>
-                <button  onclick="displayChar2(event)" name = 'e'>e</button>
-                <button  onclick="displayChar2(event)" name = 'r'>r</button>
-                <button  onclick="displayChar2(event)" name = 't'>t</button>
-                <button  onclick="displayChar2(event)" name = 'y'>y</button>
-                <button  onclick="displayChar2(event)" name = 'u'>u</button>
-                <button  onclick="displayChar2(event)" name = 'i'>i</button>
-                <button  onclick="displayChar2(event)" name = 'o'>o</button>
-                <button  onclick="displayChar2(event)" name = 'p'>p</button>
-                <button  onclick="displayChar2(event)" name = '{'>{</button>
-                <button  onclick="displayChar2(event)" name = '}'>}</button>
+                <button  onclick="displayChar('q')" >q</button>
+                <button  onclick="displayChar('w')" >w</button>
+                <button  onclick="displayChar('e')" >e</button>
+                <button  onclick="displayChar('r')" >r</button>
+                <button  onclick="displayChar('t')" >t</button>
+                <button  onclick="displayChar('y')" >y</button>
+                <button  onclick="displayChar('u')" >u</button>
+                <button  onclick="displayChar('i')" >i</button>
+                <button  onclick="displayChar('o')" >o</button>
+                <button  onclick="displayChar('p')" >p</button>
+                <button  onclick="specialChar(event)" >{</button>
+                <button  onclick="specialChar(event)" >}</button>
             </div>
 
             <div id = 'char-row-3'>
                 <button id = 'charCaps' onclick="capsLock()">CapsLock</button>
-                <button  onclick="displayChar(event)" name = 'a'>a</button>
-                <button  onclick="displayChar(event)" name = 's' >s</button>
-                <button  onclick="displayChar(event)" name = 'd' >d</button>
-                <button  onclick="displayChar(event)" name = 'f' >f</button>
-                <button  onclick="displayChar(event)" name = 'g' >g</button>
-                <button  onclick="displayChar(event)" name = 'h' >h</button>
-                <button  onclick="displayChar(event)"name = 'j' >j</button>
-                <button  onclick="displayChar(event)" name = 'k' >k</button>
-                <button  onclick="displayChar(event)" name = 'l' >l</button>
-                <button  onclick="displayChar(event)" name = ':' >:</button>
-                <button  onclick="displayChar(event)" name = '"'>"</button>
-                <button  onclick="displayChar(event)" name = '|'>|</button>
+                <button  onclick="displayChar('a')" >a</button>
+                <button  onclick="displayChar('s')"  >s</button>
+                <button  onclick="displayChar('d')"  >d</button>
+                <button  onclick="displayChar('f')" >f</button>
+                <button  onclick="displayChar('g')"  >g</button>
+                <button  onclick="displayChar('h')" >h</button>
+                <button  onclick="displayChar('j')" >j</button>
+                <button  onclick="displayChar('k')"  >k</button>
+                <button  onclick="displayChar('l')"  >l</button>
+                <button  onclick="specialChar(event)"  >:</button>
+                <button  onclick="specialChar(event)" >"</button>
+                <button  onclick="specialChar(event)" >|</button>
             </div>
 
             <div id = 'char-row-4'>
                 <button onclick="shift()" id = 'charShift'>Shift</button>
-                <button onclick="displayChar3(event)" name ='z' >z</button>
-                <button onclick="displayChar3(event)" name ='x' >x</button>
-                <button onclick="displayChar3(event)" name ='c' >c</button>
-                <button onclick="displayChar3(event)" name ='v' >v</button>
-                <button onclick="displayChar3(event)" name ='b' >b</button>
-                <button  onclick="displayChar3(event)" name ='n'>n</button>
-                <button onclick="displayChar3(event)" name ='m'>m</button>
-                <button onclick="displayChar3(event)" name =',' >,</button>
-                <button onclick="displayChar3(event)" name ='.'>.</button>
-                <button onclick="displayChar3(event)" name ='?'>?</button>
+                <button onclick="displayChar('z')"  >z</button>
+                <button onclick="displayChar('x')"  >x</button>
+                <button onclick="displayChar('c')"  >c</button>
+                <button onclick="displayChar('v')"  >v</button>
+                <button onclick="displayChar('b')"  >b</button>
+                <button  onclick="displayChar('n')" >n</button>
+                <button onclick="displayChar('m')" >m</button>
+                <button onclick="specialChar(event)"  >,</button>
+                <button onclick="specialChar(event)" >.</button>
+                <button onclick="specialChar(event)" >?</button>
                 <button onclick="shift()" id = 'charShift'>Shift</button>
             </div>
 
@@ -90,29 +90,29 @@
         <div id = 'number-layout'>
 
             <div id = 'number-layout-0'>
-                <button  onclick="displayNum(event)" name = 'div'>/</button>
-                <button  onclick="displayNum(event)" name = 'multy'>*</button>
-                <button  onclick="displayNum(event)" name = 'sub'>-</button>
+                <button  onclick="displayNum('/')" >/</button>
+                <button  onclick="displayNum('*')" >*</button>
+                <button  onclick="displayNum('-')" >-</button>
             </div>
 
             <div id = 'number-layout1'>
-                <button  onclick="displayNum(event)" name = 'sev'>7</button>
-                <button  onclick="displayNum(event)" name = 'eight'>8</button>
-                <button  onclick="displayNum(event)" name = 'nine'>9</button>
+                <button  onclick="displayNum('7')" >7</button>
+                <button  onclick="displayNum('8')" >8</button>
+                <button  onclick="displayNum('9')" >9</button>
             </div>
             <div id = 'number-layout2'>
-                <button  onclick="displayNum(event)" name = 'four'>4</button>
-                <button  onclick="displayNum(event)" name = 'five'>5</button>
-                <button  onclick="displayNum(event)" name = 'six'>6</button>
+                <button  onclick="displayNum('4')" >4</button>
+                <button  onclick="displayNum('5')" >5</button>
+                <button  onclick="displayNum('6')" >6</button>
             </div>
             <div id = 'number-layout3'>
-                <button onclick="displayNum(event)" name = 'one'>1</button>
-                <button  onclick="displayNum(event)" name = 'two'>2</button>
-                <button  onclick="displayNum(event)" name = 'three'>3</button>
+                <button onclick="displayNum('1')" >1</button>
+                <button  onclick="displayNum('2')" >2</button>
+                <button  onclick="displayNum('3')" >3</button>
             </div>
             <div id = 'number-layout-4'>
-                <button id = 'num0' onclick="displayNum(event)" name = 'zero'>0</button>
-                <button  onclick="displayNum(event)" name = 'plus'>+</button>
+                <button id = 'num0' onclick="displayNum('0')" >0</button>
+                <button  onclick="displayNum('+')">+</button>
             </div>
         </div>
         </div>
